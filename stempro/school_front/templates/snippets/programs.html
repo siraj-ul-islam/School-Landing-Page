@@ -1,0 +1,36 @@
+
+<section class="programs applySpace--bottom  programs--cap-to-grid-width  fadeUp">
+    <header class="programsHeader">
+        <h2>{{page.our_program_heading}}</h2>
+                    <div class="programsHeaderText">
+                <p>{{page.our_program_description}}</p>
+            </div>
+            </header>
+
+        <div class="programsList ">
+            {% for program in programs %}
+              
+            <div class="programsListItem">
+                <header class="programsListHeader">
+                    {{program.name}}
+                    <img src="static/images/icons/icon.arrowRight.teal.svg" alt="">
+                </header>
+                <div class="programsListItemInner">
+                    <figure class="programsListItemImage">
+                        <img data-src="{{program.hero_image.url}}"
+                             data-srcset="images/uploads/programs/test1575416891-2x1583938082-2x.1584953996_2x.jpeg 1600w, https://russianschool-tinypng.s3.us-east-1.amazonaws.com/uploads/programs/test1575416891-2x1583938082-2x.1584953996_1x.jpeg 800w, https://russianschool-tinypng.s3.us-east-1.amazonaws.com/uploads/programs/test1575416891-2x1583938082-2x.1584953996_mobile.jpeg 266w"
+                             sizes="(min-width: 768px) 400px,
+                             266px"
+                             alt="Smiling elementary student in RSM classroom"
+                             class="cardImage lazy">
+                        <div class="cardAction">
+                            <img src="static/images/icons/icon.arrowRight.white.svg" alt="&arrr;" class="cardActionIcon">
+                            <span><strong>Learn more</strong></span>
+                        </div>
+                    </figure>
+                </div>
+                <a href="{% url 'ProgramDetailView' program.id %}" class="programsListItemLink" aria-label="More information on Elementary (K-2) program"></a>
+            </div>
+            {% endfor %}
+        </div>
+</section>

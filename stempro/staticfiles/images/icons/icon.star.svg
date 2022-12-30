@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Element/UI/Full Star</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="8 11.9955357 3.29771798 14.472136 4.20001972 9.23468844 0.39154787 5.52786405 5.65148303 4.76754371 8 0 10.348517 4.76754371 15.6084521 5.52786405 11.7999803 9.23468844 12.702282 14.472136"></polygon>
+    </defs>
+    <g id="500_Competitions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="RSM/500_Competition_375-Expanded" transform="translate(-155.000000, -2204.000000)">
+            <g id="Group-10" transform="translate(131.000000, 2156.000000)">
+                <g id="Group-3" transform="translate(24.000000, 48.000000)">
+                    <g id="Element/UI/Full-Star">
+                        <g id="Element/Color/Yellow">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Mask"></g>
+                            <g mask="url(#mask-2)" fill="#EBD85E" id="Rectangle">
+                                <rect x="0" y="0" width="16" height="16"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

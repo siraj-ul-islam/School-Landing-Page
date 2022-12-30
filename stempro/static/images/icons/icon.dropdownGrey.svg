@@ -1,0 +1,43 @@
+<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 11 7">
+    <defs>
+        <style>
+        .a8dbdfbd-1cd0-41e5-8997-69451ee6ac13 {
+            fill: #fff;
+        }
+
+        .a00d7ced-24b3-4d0b-8701-8bc3c1a6041e,
+        .a8dbdfbd-1cd0-41e5-8997-69451ee6ac13 {
+            fill-rule: evenodd;
+        }
+
+        .a00d7ced-24b3-4d0b-8701-8bc3c1a6041e {
+            fill: #007698;
+        }
+
+        .fce388ab-2d4c-4b84-9077-c3ea3d3d0a36 {
+            mask: url(#e8bbfff7-9580-4716-b403-c0683962d7df);
+        }
+
+        .bdeb213a-3b52-41ec-92ce-11d572748786 {
+            fill: #bebebe;
+        }
+
+        </style>
+        <mask id="e8bbfff7-9580-4716-b403-c0683962d7df" x="0" y="0" width="11" height="7" maskUnits="userSpaceOnUse">
+            <g id="ec7713a6-753a-4244-8023-230af6dd1dd5" data-name="mask-2">
+                <path id="a266629e-23b7-44ad-aa43-68a7a6e5a585" data-name="path-1" class="a8dbdfbd-1cd0-41e5-8997-69451ee6ac13" d="M5.5,4.2,8.94.7a1,1,0,0,1,1.36,0h0a1,1,0,0,1,0,1.4L6.19,6.3a1,1,0,0,1-.69.29,1,1,0,0,1-.68-.28h0L.69,2.1A1,1,0,0,1,.69.7a1,1,0,0,1,1.36,0h0Z" />
+            </g>
+        </mask>
+    </defs>
+    <title>icon.dropdownGrey</title>
+    <g id="b9a8fc3d-79db-4a13-a91b-be686c8025f7" data-name="Stacked-Group">
+        <g id="ebbbcd65-7ce3-486d-9ed3-e594f4e4a789" data-name="Stacked-Group-12">
+            <g id="ae093f24-8405-477b-b90b-df114ba6729e" data-name="Group-5">
+                <g id="b653887c-c551-4eb6-959c-1259b5efbff1" data-name="Mask">
+                    <path class="a00d7ced-24b3-4d0b-8701-8bc3c1a6041e" d="M5.5,4.2,8.94.7a1,1,0,0,1,1.36,0h0a1,1,0,0,1,0,1.4L6.19,6.3a1,1,0,0,1-.69.29,1,1,0,0,1-.68-.28h0L.69,2.1A1,1,0,0,1,.69.7a1,1,0,0,1,1.36,0h0Z" />
+                </g>
+                <g class="fce388ab-2d4c-4b84-9077-c3ea3d3d0a36"></g>
+            </g>
+        </g>
+    </g>
+</svg>

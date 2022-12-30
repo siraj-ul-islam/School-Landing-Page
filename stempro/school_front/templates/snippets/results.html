@@ -1,0 +1,29 @@
+
+<div class="">
+    <section class="results applySpace--bottom fadeUp">
+        <header class="resultsHeader">
+            <h2>{{page.our_result_heading}}</h2>
+            <div class="resultsHeaderText">
+                <p>{{page.our_result_description}}</p>
+            </div>
+        </header>
+        <div class="resultsItems">
+            <div class="resultsItemsInner">
+                {% for result in page.result_set.all %}
+                <div class="resultItem">
+                    <div id="result-121642796-stat" class="resultItemStat">
+                        A+
+                    </div>
+                    <div id="result-121642796-text" class="resultItemStatDescripion">
+                        Our students experience soaring confidence and grades
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="viewAll">
+            <!-- TODO: hook up link to results category of blog -->
+            <a href="/blog/results.html" class="cta is-primary">View All Results</a>
+        </div>
+    </section>
+</div>
